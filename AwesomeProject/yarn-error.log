@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/thanhlong/.nvm/versions/node/v16.19.1/bin/node /Users/thanhlong/.yarn/releases/yarn-1.22.18.js add react-native@0.59.9ssh-keygen --exact
+
+PATH: 
+  /Users/thanhlong/.nvm/versions/node/v16.19.1/bin:/Users/thanhlong/.asdf/shims:/Users/thanhlong/.asdf/bin:/opt/homebrew/bin:/Users/thanhlong/bin:/usr/local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/Library/Apple/usr/bin:/Users/thanhlong/Library/Android/sdk/emulator:/Users/thanhlong/Library/Android/sdk/tools:/Users/thanhlong/Library/Android/sdk/tools/bin:/Users/thanhlong/Library/Android/sdk/platform-tools:/Volumes/DataDisk/FE/flutter/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.19.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: setRawMode EIO
+      at ReadStream.setRawMode (node:tty:78:31)
+      at Interface._setRawMode (node:readline:403:16)
+      at new Interface (node:readline:337:10)
+      at Object.createInterface (node:readline:151:10)
+      at new UI (/Users/thanhlong/.yarn/releases/yarn-1.22.18.js:81752:26)
+      at new PromptUI (/Users/thanhlong/.yarn/releases/yarn-1.22.18.js:117380:5)
+      at Object.promptModule [as prompt] (/Users/thanhlong/.yarn/releases/yarn-1.22.18.js:62218:14)
+      at /Users/thanhlong/.yarn/releases/yarn-1.22.18.js:50736:41
+      at Generator.next (<anonymous>)
+      at step (/Users/thanhlong/.yarn/releases/yarn-1.22.18.js:310:30)
+
+npm manifest: 
+  {"name":"AwesomeProject","version":"0.0.1","private":true,"scripts":{"start":"node node_modules/react-native/local-cli/cli.js start"}}
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
